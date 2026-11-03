@@ -44,9 +44,9 @@ docker compose down
 
 ## Usar junto com a API
 
-Os projetos são iniciados separadamente. Para executar também a API, abra outro terminal na pasta `ImoveisApi` e siga o README de lá. A API fica disponível em <http://localhost:8081>; inicie os dois projetos quando precisar usar front e back ao mesmo tempo.
+Os projetos são iniciados separadamente. Para carregar o catálogo, abra outro terminal na pasta `ImoveisApi` e siga o README de lá. A API fica disponível em <http://localhost:8081>; mantenha os dois projetos em execução para o catálogo funcionar. Ao abrir a página, o front faz uma única consulta à rota pública `GET /imoveis`.
 
-A interface atual ainda é demonstrativa e não consome os endpoints da API.
+O endereço da API no front é `http://localhost:8081` por padrão. Para alterá-lo ao construir a imagem Docker, defina `VITE_API_BASE_URL` no ambiente ou em um arquivo `.env` nesta pasta e reconstrua com `docker compose up --build`. Na execução local com Vite, defina `VITE_API_BASE_URL` em `.env.local`.
 
 ## Estrutura
 
@@ -63,4 +63,4 @@ Dockerfile
 nginx.conf
 ```
 
-O formulário de acesso é somente demonstrativo: autenticação e integração com backend não fazem parte desta base.
+O formulário de acesso continua demonstrativo; autenticação não faz parte desta integração de catálogo.

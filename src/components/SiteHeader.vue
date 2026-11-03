@@ -13,7 +13,7 @@ defineEmits<{
 
     <nav class="main-nav" aria-label="Navegação principal">
       <a href="#inicio">Início</a>
-      <a href="#imoveis">Imóveis</a>
+      <a href="#catalogo">Imóveis</a>
       <a href="#sobre">Sobre nós</a>
     </nav>
 

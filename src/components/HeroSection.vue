@@ -6,7 +6,7 @@
       <p class="hero-description">
         Mais do que encontrar um imóvel, encontre o cenário perfeito para a vida que você quer viver.
       </p>
-      <a class="primary-button" href="#imoveis">
+      <a class="primary-button" href="#catalogo">
         Encontre seu lugar
         <span aria-hidden="true">→</span>
       </a>
@@ -31,7 +31,7 @@
       <div class="visual-index" aria-hidden="true">01 <span>/ 04</span></div>
     </div>
 
-    <div id="imoveis" class="search-card">
+    <div class="search-card">
       <div class="search-intro">
         <span class="search-icon" aria-hidden="true">⌕</span>
         <div>
@@ -39,7 +39,7 @@
           <span>Comece a imaginar</span>
         </div>
       </div>
-      <a href="#sobre" class="search-link">
+      <a href="#catalogo" class="search-link">
         Descubra possibilidades
         <span aria-hidden="true">→</span>
       </a>
